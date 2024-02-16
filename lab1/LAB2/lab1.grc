@@ -51,7 +51,28 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [648, 36.0]
+    coordinate: [432, 12.0]
+    rotation: 0
+    state: true
+- name: amplitud2
+  id: variable_qtgui_range
+  parameters:
+    comment: ''
+    gui_hint: ''
+    label: ''
+    min_len: '200'
+    orient: QtCore.Qt.Horizontal
+    rangeType: float
+    start: '5'
+    step: '4'
+    stop: '20'
+    value: '5'
+    widget: counter_slider
+  states:
+    bus_sink: false
+    bus_source: false
+    bus_structure: null
+    coordinate: [560, 12.0]
     rotation: 0
     state: true
 - name: frecuencia
@@ -72,7 +93,7 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [464, 36.0]
+    coordinate: [288, 12.0]
     rotation: 0
     state: true
 - name: samp_rate
@@ -114,7 +135,7 @@ blocks:
   parameters:
     affinity: ''
     alias: ''
-    amp: '10'
+    amp: amplitud2
     comment: ''
     freq: 1e3
     maxoutbuf: '0'
